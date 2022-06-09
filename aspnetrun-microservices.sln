@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{494D4E39-45ED-4A68-ACAE-E15849A52673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{4FA63396-BB2B-4622-9557-A7BB5CA96D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{D539350F-CD90-482C-AD95-4B3D19FFD8BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{AF67EAF5-5995-4B8E-811C-611F590525D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{5DCCE1FE-652E-4140-BA90-C387B4EC9B04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D539350F-CD90-482C-AD95-4B3D19FFD8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D539350F-CD90-482C-AD95-4B3D19FFD8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D539350F-CD90-482C-AD95-4B3D19FFD8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D539350F-CD90-482C-AD95-4B3D19FFD8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCCE1FE-652E-4140-BA90-C387B4EC9B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCCE1FE-652E-4140-BA90-C387B4EC9B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCCE1FE-652E-4140-BA90-C387B4EC9B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCCE1FE-652E-4140-BA90-C387B4EC9B04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FA63396-BB2B-4622-9557-A7BB5CA96D75} = {494D4E39-45ED-4A68-ACAE-E15849A52673}
+		{D539350F-CD90-482C-AD95-4B3D19FFD8BF} = {4FA63396-BB2B-4622-9557-A7BB5CA96D75}
+		{AF67EAF5-5995-4B8E-811C-611F590525D4} = {494D4E39-45ED-4A68-ACAE-E15849A52673}
+		{5DCCE1FE-652E-4140-BA90-C387B4EC9B04} = {AF67EAF5-5995-4B8E-811C-611F590525D4}
+	EndGlobalSection
+EndGlobal
