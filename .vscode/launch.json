@@ -52,7 +52,7 @@
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "netCore": {
-                "appProject": "${workspaceFolder}/Services/Catalog/Catalog.API/Catalog.API.csproj"
+                "appProject": "${workspaceFolder}/Services/Basket/Basket.API/Basket.API.csproj"
             }
         }
     ]

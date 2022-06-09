@@ -46,12 +46,12 @@
             "dockerBuild": {
                 "tag": "src:dev",
                 "target": "base",
-                "dockerfile": "${workspaceFolder}/Services/Catalog/Catalog.API/Dockerfile",
+                "dockerfile": "${workspaceFolder}/Services/Basket/Basket.API/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/Services/Catalog/Catalog.API/Catalog.API.csproj"
+                "appProject": "${workspaceFolder}/Services/Basket/Basket.API/Basket.API.csproj"
             }
         },
         {
@@ -62,12 +62,12 @@
             ],
             "dockerBuild": {
                 "tag": "src:latest",
-                "dockerfile": "${workspaceFolder}/Services/Catalog/Catalog.API/Dockerfile",
+                "dockerfile": "${workspaceFolder}/Services/Basket/Basket.API/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/Services/Catalog/Catalog.API/Catalog.API.csproj"
+                "appProject": "${workspaceFolder}/Services/Basket/Basket.API/Basket.API.csproj"
             }
         },
         {
@@ -78,7 +78,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/Services/Catalog/Catalog.API/Catalog.API.csproj",
+                "appProject": "${workspaceFolder}/Services/Basket/Basket.API/Basket.API.csproj",
                 "enableDebugging": true
             }
         },
@@ -90,7 +90,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/Services/Catalog/Catalog.API/Catalog.API.csproj"
+                "appProject": "${workspaceFolder}/Services/Basket/Basket.API/Basket.API.csproj"
             }
         }
     ]

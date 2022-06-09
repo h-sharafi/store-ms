@@ -5,12 +5,24 @@ version: '3.4'
 services:
   catalogdb:
     image: mongo
-    
+  basketdb:
+    image: redis:alpine
+  portainer:
+    image: portainer/portainer-ce
 
   catalogapi:
     image: catalogapi
     build:
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
+    
+ 
+  basketapi:
+    image: basketapi
+    build:
+      context: .
+      dockerfile: Services/Basket/Basket.API/Dockerfile
+  
 volumes:
   mongo_data:
+  portainer_data:
